@@ -1,0 +1,17 @@
+O histórico de saúde de uma pessoa fica espalhado entre documentos e mensagens. Como organizar essa história sem perder a origem de cada informação? Este é o Prontuário com Prova.
+
+Aqui temos três textos sobre Helena Costa, uma pessoa inteiramente fictícia: um resumo de alta, uma mensagem do médico e uma anotação da família. O produto organiza documentos, sem realizar diagnóstico ou recomendação de saúde.
+
+Ao clicar em organizar com inteligência artificial, a API da OpenAI extrai acontecimentos, datas e trechos literais usando Structured Outputs. Em seguida, nosso código procura cada trecho exatamente no texto. A inteligência artificial organiza; a fonte permite conferir.
+
+A linha do tempo reúne os acontecimentos. Ao clicar na entrada no hospital, vemos a frase original destacada. O selo confirma que esse trecho existe no documento. Não significa que o relato seja verdadeiro.
+
+Agora, uma informação incompleta. A família escreveu que Helena iniciou sessões de fisioterapia, mas não anotou quando. Em vez de inventar uma data, o sistema mantém o evento na faixa sem data. O que o texto não diz fica em aberto.
+
+Há também uma divergência importante. O resumo de alta registra o retorno em vinte e dois de maio. A mensagem registra o mesmo retorno em vinte e três de maio. As duas fontes continuam visíveis. Uma regra em código sinaliza o conflito, sem escolher qual relato está certo.
+
+Neste caso fictício, vamos supor que a família confirmou o dia vinte e dois. Podemos corrigir a afirmação da mensagem e registrar o motivo. O evento recebe a marca corrigido por humano. O texto original permanece intacto.
+
+No histórico, aparecem a data anterior, a nova data, o motivo e o horário da alteração. A exportação leva as fontes, os eventos e as correções em um arquivo. A sessão fica somente nesta aba; para guardar o trabalho, é preciso exportar.
+
+Nosso diferencial é tornar a incerteza visível e cada informação verificável. Sem interpretações clínicas, sem esconder conflitos e sem apagar a origem. A inteligência artificial organiza. A fonte comprova. Você mantém o controle.
